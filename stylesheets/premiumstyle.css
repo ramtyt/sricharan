@@ -1,0 +1,16 @@
+.text{
+text-align:center;
+padding-top:100px;
+}
+body{
+  background-color:lightblue;
+}
+h3{
+  padding-left:100px;
+  padding-right:100px;
+}
+
+#btn{
+
+padding-left:550px;
+}

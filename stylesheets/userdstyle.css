@@ -1,0 +1,52 @@
+
+.singers{
+  height:130px;
+  width:180px;
+  border-radius:19px;
+
+
+}
+
+body{
+  background-image:url('https://wallpapershome.com/images/pages/pic_h/12483.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+
+}
+
+
+
+.intro{
+  height:180px;
+  width:100%;
+  background-color:rgba(0,0,0,0.39);
+}
+.text{
+  padding-top:80px;
+  color:white;
+}
+.space{
+  height:50px;
+}
+
+.bottom{
+  height:300px;
+  width:100%;
+  background-color:rgba(0,0,0,0.8);
+}
+.btm-text{
+  padding-top:80px;
+  padding-left:30px;
+}
+.column{
+  float:left;
+  width:25%;
+}
+.row:after{
+  clear:both;
+}
+.row{
+  padding:30px;
+  padding-left:60px;
+}

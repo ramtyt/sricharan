@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>LIVE IT !</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel='stylesheet' type='text/css' href="/indexstyle.css" >
+  </head>
+  <body>
+<div class='background'>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class='container-fluid'>
+    <div class='navbar-header'>
+      <a class=" navbar-brand" href='#'>LIVEIT</a>
+    </div>
+
+    <ul class="nav navbar-nav">
+
+
+      <li><a href="/premium" class="">Premium</a></li>
+      <li><a href="/contact" class="">Contact</a></li>
+      <li><a href="/userdesk-notPremium" class="active">Web Player</a></li>
+    </ul>
+
+    <ul class='nav navbar-nav navbar-right'>
+      <li><a href="" data-toggle='modal' data-target="#myModal"  ><span class="glyphicon glyphicon-user btn btn-info btn-lg" ></span> SignUp</a></li>
+      <li><a href="" data-toggle='modal' data-target='#myModal2'><span class="glyphicon glyphicon-log-in btn btn-info btn-lg"></span> LogIn</a></li>
+    </ul>
+  </div>
+</nav>
+
+ <div id="myModal" class="modal fade" role="dialog" >
+   <div class='modal-dialog'>
+     <div class='modal-content' >
+       <div class='modal-header' >
+         <button  type='button' class='close' data-dismiss='modal'>&times;</button>
+         <h4 class='modal-title'>SignUp</h4>
+       </div>
+       <div class='modal-body'>
+         <div class='signup'>
+         <form action='/' method='post'>
+           <input type='text' placeholder='Username' name='username' required><br><br>
+           <input type='email' placeholder='Email' name='email'required><br><br>
+           <input type='number' placeholder="Mobile" name='mobile'required><br><br>
+           <input type='password' placeholder='Password' name='password' required><br><br>
+           <button type='submit' class='btn btn-sm btn-primary'>SignUp</button>
+         </form>
+       </div>
+       </div>
+     </div>
+   </div>
+ </div>
+
+<div id="myModal2" class="modal fade" role='dialog'>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class='close' data-dismiss='modal'>&times;</div>
+        <h4>LogIn</h4>
+      </div>
+      <div class='modal-body'>
+        <div class='login'>
+          <form action="/userdesk" method='post'>
+            <input type="email" placeholder='Email' name="email" required><br><br>
+            <input type='password' placeholder="Password" name="password" required><br><br>
+            <button type='submit'class='btn btn-sm btn-primary'>LogIn</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class='mid'>
+
+    <h1 class='text-center' id='welcome1'> Welcome to LiveIt - Your Music Destination</h1>
+    <h2 class='text-center' id='welcome2'>Live Every Moment of Your Life Here ! </h2>
+
+</div>
+
+<div class='bottom'>
+
+  <a class='fa fa-facebook'></a>
+  <a class='fa fa-instagram' href="https://www.instagram.com/live_it_21/"></a>
+  <a class='fa fa-twitter' >  </a>
+
+  <h1 class=" text text-center">LiveIT</h1>
+
+
+  <h6 class='text'>CopyRight</h6>
+
+
+  <h4>LiveIt is a online Music Streaming Application intended to not only Entertain it's users but also to Encourage people to come forward and do social services</h4>
+  <h4>LiveIt is completely Free , that makes it Accessible to Almost Every One .</h4>
+  <h4>So , Yeah Sign Up  and Avail Our Premium Features Today ! <a href='/premium'>Go Premium </a> </h4>
+  <h4>For more Information contact us <a href="/contact">Contact</a></h4>
+</div>
+
+</div>
+<script async src="https://static.addtoany.com/menu/page.js"></script>
+<!-- AddToAny END -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
